@@ -1,14 +1,14 @@
 # Odysseus Search
 
 Odysseus Search é uma ferramenta que permite buscar a presença de um usuário em diversos sites. A ferramenta gera um relatório em formato HTML com os resultados da busca, incluindo um grafo de conexões.
-OS: OdysseusOS, Kalli, Debian,Ubuntu,etc.
+Distros: OdysseusOS, Kalli, Debian,Ubuntu,etc.
 
 ## Funcionalidades
 
 - Busca a presença de um usuário em diversos sites.
 - Gera um relatório em formato HTML com os resultados da busca.
 - Inclui um grafo de conexões no relatório HTML.
-- Exibe um splash screen com ASCII art usando `toilet`.
+- Gera um relatório em formato HTML
 
 ### Início da Execução
 
@@ -19,8 +19,6 @@ OS: OdysseusOS, Kalli, Debian,Ubuntu,etc.
 ![Fim da Execução](images/end.gif)
 
 ## Pré-requisitos e dependências
-
-Certifique-se de que os seguintes pacotes estejam instalados no seu sistema:
 
 - `awk`
 - `pandoc`
