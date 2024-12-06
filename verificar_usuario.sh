@@ -45,7 +45,7 @@ jq -r 'to_entries[] | "\(.key) \(.value)"' sites.json | while read -r site urlTe
   fi
 done
 
-# Converte o arquivo temporário em uma planilha PDF
+# Converte o arquivo   temporário em uma planilha PDF
 awk 'BEGIN {print "| Site | URL | Status |\n|------|-----|--------|"} {print "| " $1 " | " $2 " | " $3 " |"}' "$temp_file" > results.md
 pandoc results.md -o results.pdf
 
