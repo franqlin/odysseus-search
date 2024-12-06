@@ -7,7 +7,15 @@ Odysseus Search é uma ferramenta que permite buscar a presença de um usuário 
 - Busca a presença de um usuário em diversos sites.
 - Gera um relatório em formato HTML com os resultados da busca.
 - Inclui um grafo de conexões no relatório HTML.
+- Exibe um splash screen com ASCII art usando `toilet`.
 
+### Início da Execução
+
+![Início da Execução](images/init.gif)
+
+### Fim da Execução
+
+![Fim da Execução](images/end.gif)
 
 ## Pré-requisitos
 
@@ -37,13 +45,13 @@ Certifique-se de que os seguintes pacotes estejam instalados no seu sistema:
 
     O script de instalação fará o seguinte:
     - Verificará e instalará as dependências necessárias.
-    - Criará o diretório de instalação em [odyusersearch](http://_vscodecontentref_/0) se ele não existir.
-    - Copiará os arquivos [odyusersearch](http://_vscodecontentref_/1) e [sites.json](http://_vscodecontentref_/2) para o diretório de instalação.
-    - Criará um link simbólico em [bin](http://_vscodecontentref_/3) para o arquivo [odyusersearch](http://_vscodecontentref_/4).
+    - Criará o diretório de instalação em [odyusersearch](http://_vscodecontentref_/2) se ele não existir.
+    - Copiará os arquivos [odyusersearch](http://_vscodecontentref_/3) e [sites.json](http://_vscodecontentref_/4) para o diretório de instalação.
+    - Criará um link simbólico em [bin](http://_vscodecontentref_/5) para o arquivo [odyusersearch](http://_vscodecontentref_/6).
 
 ## Uso
 
-Para usar a ferramenta, execute o comando [odyusersearch] seguido do nome de usuário que você deseja pesquisar:
+Para usar a ferramenta, execute o comando [odyusersearch](http://_vscodecontentref_/7) seguido do nome de usuário que você deseja pesquisar:
 
 ```sh
 odyusersearch <usuario>
