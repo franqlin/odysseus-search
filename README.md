@@ -1,6 +1,7 @@
 # Odysseus Search
 
 Odysseus Search é uma ferramenta que permite buscar a presença de um usuário em diversos sites. A ferramenta gera um relatório em formato HTML com os resultados da busca, incluindo um grafo de conexões.
+OS: OdysseusOS, Kalli, Debian,Ubuntu,etc.
 
 ## Funcionalidades
 
@@ -17,7 +18,7 @@ Odysseus Search é uma ferramenta que permite buscar a presença de um usuário 
 
 ![Fim da Execução](images/end.gif)
 
-## Pré-requisitos
+## Pré-requisitos e dependências
 
 Certifique-se de que os seguintes pacotes estejam instalados no seu sistema:
 
@@ -32,9 +33,10 @@ Certifique-se de que os seguintes pacotes estejam instalados no seu sistema:
 1. Clone o repositório:
 
     ```sh
-    git clone <URL_DO_REPOSITORIO>
-    cd <NOME_DO_REPOSITORIO>
+    git clone https://github.com/franqlin/odysseus-search.git
+    cd odyusersearch
     ```
+    
 
 2. Execute o script de instalação:
 
@@ -45,13 +47,13 @@ Certifique-se de que os seguintes pacotes estejam instalados no seu sistema:
 
     O script de instalação fará o seguinte:
     - Verificará e instalará as dependências necessárias.
-    - Criará o diretório de instalação em [odyusersearch](http://_vscodecontentref_/2) se ele não existir.
-    - Copiará os arquivos [odyusersearch](http://_vscodecontentref_/3) e [sites.json](http://_vscodecontentref_/4) para o diretório de instalação.
-    - Criará um link simbólico em [bin](http://_vscodecontentref_/5) para o arquivo [odyusersearch](http://_vscodecontentref_/6).
+    - Criará o diretório de instalação em [    install_dir="/opt/odyusersearch"] se ele não existir.
+    - Copiará os arquivos [odyusersearch] e [sites.json] para o diretório de instalação.
+    - Criará um link simbólico em [/usr/bin] para o arquivo [odyusersearch]
 
 ## Uso
 
-Para usar a ferramenta, execute o comando [odyusersearch](http://_vscodecontentref_/7) seguido do nome de usuário que você deseja pesquisar:
+Para usar a ferramenta, execute o comando [odyusersearch] seguido do nome de usuário que você deseja pesquisar:
 
 ```sh
 odyusersearch <usuario>
