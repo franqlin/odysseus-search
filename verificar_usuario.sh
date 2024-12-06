@@ -14,13 +14,14 @@ if ! command -v jq &> /dev/null; then
   exit 1
 fi
 
+
 # Verifica se o pandoc está instalado
 if ! command -v pandoc &> /dev/null; then
   echo "pandoc não está instalado. Instale-o usando 'sudo apt-get install pandoc'."
   exit 1
 fi
 
-# Exibe o splash screen com ASCII art usando toilet
+# Exibe o splash 01screen com ASCII art usando toilet
 clear
 toilet -f mono12 -F metal "Odysseus Search"
 sleep 2
